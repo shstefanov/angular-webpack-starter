@@ -1,10 +1,9 @@
 {
-    
-    
-  "output_path": "../orbits/public/bundles",
-  
-  "public_path": "/orbits/public/bundles",
-    
+
+  "output_path": "../some/public/folder",
+
+  "public_path": "/some/public/folder",
+
   "entry": {
     "polyfills": "./src/polyfills.browser.ts",
     "homepage":  "./src/homepage.browser.ts"
