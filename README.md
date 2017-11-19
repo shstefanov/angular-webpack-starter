@@ -12,3 +12,7 @@ config.json
     }
 ```
 
+Aliases
+=======
+Define aliases in both files - tsconfig.json(compilerOptions.paths) and config/webpack.common.js (resolve.alias)
+

@@ -118,6 +118,10 @@ module.exports = function (options) {
      * See: http://webpack.github.io/docs/configuration.html#resolve
      */
     resolve: {
+      
+      alias: {
+        "custom-components": require("path").join(__dirname, "../lib")
+      },
 
       /**
        * An array of extensions that should be used to resolve modules.
